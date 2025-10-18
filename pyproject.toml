@@ -9,7 +9,12 @@ requires-python = ">=3.12"
 readme = "README.md"
 
 dependencies = [
-
+    "beautifulsoup4>=4.14.2",
+    "jupyter>=1.1.1",
+    "nltk>=3.9.2",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "spacy>=3.8.7",
 ]
 
 [project.urls]
@@ -23,7 +28,8 @@ dev = [
     "pytest>=8.3.5", # Testing framework
     "pytest-cookies>=0.7.0",
     "pytest-cov>=6.1.1",
-    "cruft[pyproject]>=2.15.0",# Automated Cookiecutter template synchronization
+    "cruft[pyproject]>=2.15.0", # Automated Cookiecutter template synchronization
+    "matplotlib>=3.10.7",
 ]
 
 #
