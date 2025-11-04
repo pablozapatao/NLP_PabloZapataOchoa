@@ -10,11 +10,17 @@ readme = "README.md"
 
 dependencies = [
     "beautifulsoup4>=4.14.2",
+    "fsspec>=2025.10.0",
+    "joblib>=1.5.2",
     "jupyter>=1.1.1",
     "nltk>=3.9.2",
     "pandas>=2.3.3",
+    "pyarrow>=22.0.0",
+    "requests>=2.32.5",
     "scikit-learn>=1.7.2",
     "spacy>=3.8.7",
+    "tqdm>=4.67.1",
+    "watermark>=2.5.0",
 ]
 
 [project.urls]
